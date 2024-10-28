@@ -13,8 +13,10 @@
 
 #print ("você nasceu no dia ", dia, " de", mes, "de", ano," .Correto?" )
 
-#num1= int(input("primeiro número "))
-#num2= int(input("segundo numero "))
-#soma= num1 + num2
+num1= int(input("primeiro número "))
+num2= int(input("segundo numero "))
+soma= num1 + num2
 
 #print("a soma é", soma)
+
+print("A soma entre {} e {} é {}" .format(num1, num2, soma))
